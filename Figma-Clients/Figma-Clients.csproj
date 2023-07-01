@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Figma_Clients</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Static Files\Fonts\SulphurPoint-Bold.otf" />
+    <None Remove="Static Files\Fonts\SulphurPoint-Light.otf" />
+    <None Remove="Static Files\Fonts\SulphurPoint-Regular.otf" />
+    <None Remove="Static Files\Images\+ new.png" />
+    <None Remove="Static Files\Images\2.png" />
+    <None Remove="Static Files\Images\building.png" />
+    <None Remove="Static Files\Images\instagram.png" />
+    <None Remove="Static Files\Images\Logo %281%29.png" />
+    <None Remove="Static Files\Images\pen.png" />
+    <None Remove="Static Files\Images\phone.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Static Files\Fonts\SulphurPoint-Bold.otf" />
+    <Resource Include="Static Files\Fonts\SulphurPoint-Light.otf" />
+    <Resource Include="Static Files\Fonts\SulphurPoint-Regular.otf" />
+    <Resource Include="Static Files\Images\+ new.png" />
+    <Resource Include="Static Files\Images\2.png" />
+    <Resource Include="Static Files\Images\building.png" />
+    <Resource Include="Static Files\Images\instagram.png" />
+    <Resource Include="Static Files\Images\Logo (1).png" />
+    <Resource Include="Static Files\Images\pen.png" />
+    <Resource Include="Static Files\Images\phone.png" />
+  </ItemGroup>
+
+</Project>

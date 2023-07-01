@@ -1,0 +1,40 @@
+﻿<Window x:Class="Figma_Clients.Views.HomeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Figma_Clients.Views"
+        mc:Ignorable="d"
+        Title="HomeView" Height="690" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="1.8*"/>
+            <RowDefinition Height="0.1*"/>
+        </Grid.RowDefinitions>
+        <Image Source="/Static Files/Images/Logo (1).png"
+               Width="471"
+               Height="60"/>
+        <TextBlock 
+            Text="Welcome Ibrahim!" Grid.Row="1"
+            FontFamily="/Static Files/Fonts/#Sulphur Point"
+            TextAlignment="Center"
+            Foreground="#3476E4"/>
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Command="{Binding newClient}" Style="{StaticResource newClient}" Content="create new client"/>
+                <Button Command="{Binding allClient}" Style="{StaticResource newClient}" Margin="0,30,0,0" Content="all clients"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <TextBlock 
+                Text="Proudly created by Ibrahim Asadov in 2023." 
+                TextAlignment="Center" VerticalAlignment="Center" 
+                Foreground="Gray"
+                FontFamily="/Static Files/Fonts/#Sulphur Point"/>
+
+        </Grid>
+    </Grid>
+</Window>
