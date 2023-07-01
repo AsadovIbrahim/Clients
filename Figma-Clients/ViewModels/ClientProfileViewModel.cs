@@ -12,7 +12,7 @@ namespace Figma_Clients.ViewModels
 {
     public class ClientProfileViewModel
     {
-        public Clients selectedClients { get; set; }
+        public Clients? selectedClients { get; set; }
         public ClientProfileViewModel(Clients clients) : this()
         {
             this.selectedClients = clients;
@@ -37,7 +37,12 @@ namespace Figma_Clients.ViewModels
             NewClientRegister newClientRegister = new NewClientRegister();
             App.Current.MainWindow.Hide();
             newClientRegister.ShowDialog();
+            
         }
+        
+
+
+       
 
     }
 }

@@ -53,7 +53,7 @@ namespace Figma_Clients.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Figma-Clients;component/views/neworderview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Figma-Clients;V1.0.0.0;component/views/neworderview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\NewOrderView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

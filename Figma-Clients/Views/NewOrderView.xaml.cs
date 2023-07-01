@@ -26,7 +26,7 @@ namespace Figma_Clients.Views
         private void TextBox_GotFocus(object sender, RoutedEventArgs e)
         {
             TextBox textBox = sender as TextBox;
-            textBox.Text = "";
+            textBox!.Text = "";
         }
     }
 }

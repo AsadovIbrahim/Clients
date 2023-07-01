@@ -60,12 +60,12 @@
                     </StackPanel>
 
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Registered:" Margin="0,15,0,0"/>
+                        <TextBlock Text="Registered:" FontFamily="/Static Files/Fonts/#Sulphur Point" Margin="0,15,0,0"/>
+                        <TextBlock Text="{Binding selectedClients.RegistrationDate}" Padding="5,0,0,0"  FontFamily="/Static Files/Fonts/#Sulphur Point" Margin="0,15,0,0"/>
                     </StackPanel>
 
-
                 </StackPanel>
-            </Grid> 
+            </Grid>
         </Grid>
 
         <Grid Grid.Row="2" Margin="0,2,0,0">
@@ -73,28 +73,41 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <Border Style="{StaticResource allClients_Border}">
-                            <StackPanel>
-                                <StackPanel Orientation="Horizontal" Margin="10">
-                                    <TextBlock Text="{Binding Name}" FontSize="15" FontWeight="Medium"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
-                                    <Image Source="/Static Files/Images/pen.png" Margin="150,0,0,0" Width="14"/>
-                                    <Border Width="5" Height="5" CornerRadius="50" Margin="5,0,0,0" Background="#07DA42"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Orientation="Horizontal" Grid.Column="1">
+                                    <Image Source="/Static Files/Images/pen.png" VerticalAlignment="Top" Margin="120,14,0,0" Width="14" Grid.Column="1">
+                                        <Image.InputBindings>
+                                            <MouseBinding MouseAction="LeftClick" Command="{Binding newOrderCommand}"/>
+                                        </Image.InputBindings>
+                                    </Image>
+                                    <Border Width="5" Height="5" CornerRadius="50" VerticalAlignment="Top" Margin="5,20,0,0" Background="{Binding status}"/>
                                 </StackPanel>
-                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,3,0,0">
-                                    <TextBlock Text="Order quantity:"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
-                                    <TextBlock Text="{Binding Quantity}" Margin="5,0,0,0"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
-                                </StackPanel>
+                                <StackPanel Grid.Column="0">
+                                    <StackPanel Orientation="Horizontal" Margin="10" >
+                                        <TextBlock Text="{Binding Name}"  FontSize="15" FontWeight="Medium"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,3,0,0">
+                                        <TextBlock Text="Order quantity:"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
+                                        <TextBlock Text="{Binding Quantity}" Margin="5,0,0,0"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
+                                    </StackPanel>
 
-                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,5,0,0">
-                                    <TextBlock Text="Order day:"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
-                                    <TextBlock Text="{Binding OpeningDay}" Margin="5,0,0,0"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
-                                </StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,5,0,0">
+                                        <TextBlock Text="Order day:"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
+                                        <TextBlock Text="{Binding OpeningDay}" Margin="5,0,0,0"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
+                                    </StackPanel>
 
-                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,5,0,0">
-                                    <TextBlock Text="Delivery day:"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
-                                    <TextBlock Text="{Binding DeliveryDay}" Margin="5,0,0,0"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,5,0,0">
+                                        <TextBlock Text="Delivery day:"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
+                                        <TextBlock Text="{Binding DeliveryDay}" Margin="5,0,0,0"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
+                                    </StackPanel>
                                 </StackPanel>
-                            </StackPanel>
+                            </Grid>
                         </Border>
+
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

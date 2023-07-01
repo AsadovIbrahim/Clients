@@ -26,7 +26,7 @@ namespace Figma_Clients.ViewModels
         public void Register(object? param)
         {
             Order!.OpeningDay = DayOpening + "." + MonthOpening + "." + YearOpening;
-            Order!.DeliveryDay=DayDelivery+"." + MonthDelivery + "." + YearDelivery;
+            Order!.DeliveryDay = DayDelivery + "." + MonthDelivery + "." + YearDelivery;
             Client!.orders.Add(Order);
             ClientProfileView clientProfileView = new ClientProfileView(Client);
             App.Current.MainWindow.Hide();

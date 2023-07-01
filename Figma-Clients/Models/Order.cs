@@ -36,17 +36,23 @@ namespace Figma_Clients.Models
             get { return _DeliveryDay; }
             set { _DeliveryDay = value; }
         }
+        
+        public bool IsDelivered { get; set; }
+        public string status {
+            get { if (IsDelivered == true) return "#EE0F0F"; else return "#07DA42"; }
+        }
 
         public Guid Id { get; set; }= Guid.NewGuid();
 
         public Order() { }
 
-        public Order(string name,string quantity,string openingday,string deliveryday)
+        public Order(string name,string quantity,string openingday,string deliveryday,bool isDelivered=false)
         {
             Name=name;
             Quantity=quantity;
             OpeningDay=openingday;
             DeliveryDay=deliveryday;
+            IsDelivered = isDelivered;
         }
 
 

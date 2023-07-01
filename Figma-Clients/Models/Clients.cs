@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
+using System.Printing;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -94,13 +95,15 @@ namespace Figma_Clients.Models
             orders!.Add(new("Display Akril |2.5mm| A5", "12", DateTime.Now.ToShortDateString(), DateTime.Now.ToShortDateString()));
         }
 
-        public Clients(string name, string surname, string company, string phone,string information) : this()
+        public Clients(string name, string surname, string company, string phone,string information,string registrationDate) : this()
         {
             Name = name;
             Surname = surname;
             Phone = phone;
             Company = company;
+            Phone= phone;
             Information = information;
+            _RegistrationDate = registrationDate;
         }
 
 
