@@ -24,7 +24,7 @@ namespace Figma_Clients.Models
         private string _Place;
         private string _RegistrationDate;
         private string _Information;
-
+        
         public string Name
         {
             get { return _Name; }
