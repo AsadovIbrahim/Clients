@@ -15,12 +15,14 @@ namespace Figma_Clients.Models
     public static class ClientsDB
     {
         public static ObservableCollection<Clients>? clients { get; set; } = new();
+        
 
 
         static ClientsDB()
         {
             clients = AllClientsViewModel.ReadData<ObservableCollection<Clients>>("clients");
         }
-        
+       
     }
+
 }

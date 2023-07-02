@@ -38,17 +38,6 @@ namespace Figma_Clients.Views
             AllClientsViewModel.WriteData(ClientsDB.clients, "clients");
         }
 
-        //private void TextBox_LostFocus(object sender, RoutedEventArgs e)
-        //{
-        //    TextBox textBox = sender as TextBox;
-        //    textBox.Text = "enter username";
-        //    textBox.TextAlignment = TextAlignment.Center;
-        //}
-        //private void TextBox_LostFocus1(object sender, RoutedEventArgs e)
-        //{
-        //    TextBox textBox = sender as TextBox;
-        //    textBox.Text = "enter password";
-        //    textBox.TextAlignment = TextAlignment.Center;
-        //}
+
     }
 }

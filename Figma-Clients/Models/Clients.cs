@@ -30,6 +30,10 @@ namespace Figma_Clients.Models
             get { return _Name; }
             set
             {
+                if (value.Length < 3)
+                {
+                    MessageBox.Show("Yanlis ad", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
                 _Name = value;
                 OnPropertyChanged(nameof(Name));
             }
@@ -49,8 +53,8 @@ namespace Figma_Clients.Models
             get { return _Phone; }
             set
             {
-                if (Regex.Match(value!, "^[\\+]?[(]?[0-9]{3}[)]?[-\\s\\.]?[0-9]{3}[-\\s\\.]?[0-9]{2}[-\\s\\.]?[0-9]{2}$").Success|| 
-                    value== "What is the phone number of the client?")
+                if (Regex.Match(value!, "^[\\+]?[(]?[0-9]{3}[)]?[-\\s\\.]?[0-9]{3}[-\\s\\.]?[0-9]{2}[-\\s\\.]?[0-9]{2}$").Success ||
+                    value == "What is the phone number of the client?")
                 {
                     _Phone = value;
                     OnPropertyChanged(nameof(Phone));
@@ -97,18 +101,18 @@ namespace Figma_Clients.Models
             orders!.Add(new("Display Akril |2.5mm| A5", "12", DateTime.Now.ToShortDateString(), DateTime.Now.ToShortDateString()));
         }
 
-        public Clients(string name, string surname, string company, string phone,string information,string registrationDate) : this()
+        public Clients(string name, string surname, string company, string phone, string information, string registrationDate) : this()
         {
             Name = name;
             Surname = surname;
             Phone = phone;
             Company = company;
-            Phone= phone;
+            Phone = phone;
             Information = information;
             _RegistrationDate = registrationDate;
         }
 
-        
+
 
     }
 }
