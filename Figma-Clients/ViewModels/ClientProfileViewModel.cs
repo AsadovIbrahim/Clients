@@ -29,6 +29,7 @@ namespace Figma_Clients.ViewModels
         public void NewButton(object? param)
         {
             NewOrderView newOrderView = new NewOrderView();
+            newOrderView.DataContext = new NewOrderViewModel(selectedClients!);
             App.Current.MainWindow.Hide();
             newOrderView.ShowDialog();
         }

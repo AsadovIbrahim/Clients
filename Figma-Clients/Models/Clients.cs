@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Printing;
 using System.Text;
+using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
@@ -106,7 +108,7 @@ namespace Figma_Clients.Models
             _RegistrationDate = registrationDate;
         }
 
-
+        
 
     }
 }

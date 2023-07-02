@@ -3,9 +3,12 @@ using Figma_Clients.Models;
 using Figma_Clients.Views;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using static Figma_Clients.Models.ClientsDB;
 
@@ -69,6 +72,11 @@ namespace Figma_Clients.ViewModels
             Day = "Day";
             Month = "Month";
             Year = "Year";
+
         }
+
+        
+
+
     }
 }

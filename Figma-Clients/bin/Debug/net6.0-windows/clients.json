@@ -1,0 +1,50 @@
+[
+  {
+    "Name": "Ibrahim",
+    "Surname": "Asadov",
+    "Phone": "070-404-03-00",
+    "Company": "Sabah",
+    "Place": "instagram",
+    "Information": "Microsot",
+    "orders": [
+      {
+        "Name": "Display Akril |2.5mm| A5",
+        "Quantity": "12",
+        "OpeningDay": "02.07.2023",
+        "DeliveryDay": "02.07.2023",
+        "IsDelivered": false,
+        "status": "#07DA42",
+        "Id": "f7f918c1-e653-499d-ad64-66b896d631ea"
+      },
+      {
+        "Name": "Display Akril |2.5mm| A5",
+        "Quantity": "12",
+        "OpeningDay": "02.07.2023",
+        "DeliveryDay": "02.07.2023",
+        "IsDelivered": false,
+        "status": "#07DA42",
+        "Id": "dc268af6-a2d7-4e1f-8b6b-4aff0fab975d"
+      },
+      {
+        "Name": "Display Akril |2.5mm| A5",
+        "Quantity": "12",
+        "OpeningDay": "02.07.2023",
+        "DeliveryDay": "02.07.2023",
+        "IsDelivered": false,
+        "status": "#07DA42",
+        "Id": "0e1d6077-8886-417a-adbf-87b125f2bf7a"
+      },
+      {
+        "Name": "Rustem",
+        "Quantity": "12",
+        "OpeningDay": "02.02.2023",
+        "DeliveryDay": "02.02.2023",
+        "IsDelivered": false,
+        "status": "#07DA42",
+        "Id": "04fd2ae9-2790-464c-ae2f-5e5124ca15be"
+      }
+    ],
+    "RegistrationDate": "02.02.2023",
+    "Id": "0b4b47da-b02e-4ee7-8dc6-5df7a6002759"
+  }
+]

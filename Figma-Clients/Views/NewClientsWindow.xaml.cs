@@ -1,4 +1,5 @@
-﻿using Figma_Clients.ViewModels;
+﻿using Figma_Clients.Models;
+using Figma_Clients.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,6 +31,11 @@ namespace Figma_Clients.Views
                 textBox.Text = "";
             }
             textBox.TextAlignment = TextAlignment.Left;
+        }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            AllClientsViewModel.WriteData(ClientsDB.clients, "clients");
         }
 
         //private void TextBox_LostFocus(object sender, RoutedEventArgs e)

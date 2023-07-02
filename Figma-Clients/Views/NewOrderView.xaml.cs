@@ -20,7 +20,7 @@ namespace Figma_Clients.Views
         public NewOrderView()
         {
             InitializeComponent();
-            DataContext = new NewOrderViewModel();
+       
         }
 
         private void TextBox_GotFocus(object sender, RoutedEventArgs e)

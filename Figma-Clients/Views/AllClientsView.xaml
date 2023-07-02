@@ -32,7 +32,7 @@
                             <StackPanel Orientation="Vertical" Grid.Column="0" Margin="10">
                                 <StackPanel HorizontalAlignment="Left">
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="{Binding Name}" Margin="0,0,3,0" Padding="0,3,0,0" FontSize="15" FontWeight="Medium"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
+                                        <TextBlock Text="{Binding Name}" Margin="0,0,5,0" Padding="0,3,0,0" FontSize="15" FontWeight="Medium"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
                                         <TextBlock Text="{Binding Surname}" Padding="0,3,0,0" FontSize="15" FontWeight="Medium"  FontFamily="/Static Files/Fonts/#Sulphur Point"/>
                                     </StackPanel>
                                     <TextBlock Padding="0,5,0,0" Text="{Binding Company}" FontFamily="/Static Files/Fonts/#Sulphur Point"/>

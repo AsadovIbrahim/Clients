@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Figma_Clients.Views"
         xmlns:fs="http://schemas.fontawesome.io/icons/"
         mc:Ignorable="d"
-        Title="NewClientsWindow" Background="#F4F8FD" Height="690" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="NewClientsWindow" Background="#F4F8FD" Height="690" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0.18*"/>

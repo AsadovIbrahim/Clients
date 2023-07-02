@@ -33,9 +33,10 @@ namespace Figma_Clients.ViewModels
             clientProfileView.ShowDialog();
         }
 
-        public NewOrderViewModel()
+        public NewOrderViewModel(Clients clients)
         {
             registerBtn = new(Register);
+            this.Client=clients;
             Order.Name = "Type the order name same with the order blank";
             Order.Quantity = "How many do you want?";
 
