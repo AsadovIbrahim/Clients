@@ -30,7 +30,7 @@ namespace Figma_Clients.Models
             get { return _Name; }
             set
             {
-                if (value.Length < 3)
+                if (value!.Length < 3 || !Regex.Match(value!, @"\b[A-Z][a-z]+\b").Success)
                 {
                     MessageBox.Show("Yanlis ad", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
