@@ -46,7 +46,7 @@ namespace Figma_Clients.Models
 
         public Order() { }
 
-        public Order(string name,string quantity,string openingday,string deliveryday,bool isDelivered=true)
+        public Order(string name,string quantity,string openingday,string deliveryday,bool isDelivered=false)
         {
             Name=name;
             Quantity=quantity;
