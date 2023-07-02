@@ -17,7 +17,7 @@ namespace Figma_Clients.Models
                     new Clients("Yunis","Memmedov","Indigo","+994 555 55 55","A4,A5 akril toplu sifaris","16.09.2021"),
                     new Clients("Yunis","Memmedov","Indigo","+994 555 55 55","A4,A5 akril toplu sifaris","16.09.2021"),
                     new Clients("Yunis","Memmedov","Indigo","+994 555 55 55","A4,A5 akril toplu sifaris","16.09.2021"),
-                    
+                   
         };
 
     }
