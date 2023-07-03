@@ -98,13 +98,7 @@ namespace Figma_Clients.Models
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public Clients()
-        {
-            orders!.Add(new("Display Akril |2.5mm| A5", "12", DateTime.Now.ToShortDateString(), DateTime.Now.ToShortDateString()));
-            orders!.Add(new("Display Akril |2.5mm| A5", "12", DateTime.Now.ToShortDateString(), DateTime.Now.ToShortDateString()));
-            orders!.Add(new("Display Akril |2.5mm| A5", "12", DateTime.Now.ToShortDateString(), DateTime.Now.ToShortDateString(), true));
-            orders!.Add(new("Display Akril |2.5mm| A5", "12", DateTime.Now.ToShortDateString(), DateTime.Now.ToShortDateString(), true));
-        }
+        public Clients(){ }
 
         public Clients(string name, string surname, string company, string phone, string information, string registrationDate) : this()
         {
