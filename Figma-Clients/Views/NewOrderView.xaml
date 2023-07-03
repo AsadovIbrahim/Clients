@@ -16,7 +16,7 @@
 
         <Grid Grid.Row="0" Background="#fff">
             <Image Source="/Static Files/Images/Logo (1).png" HorizontalAlignment="Left" Margin="10,0,0,0" Width="60"/>
-            <TextBlock Text="home"  VerticalAlignment="Center" FontFamily="/Static Files/Fonts/#Sulphur Point" Margin="10" FontSize="15" HorizontalAlignment="Right"/>
+            <TextBlock Text="home"   VerticalAlignment="Center" FontFamily="/Static Files/Fonts/#Sulphur Point" Margin="10" FontSize="15" HorizontalAlignment="Right"/>
             
         </Grid>
         <Grid Grid.Row="1">

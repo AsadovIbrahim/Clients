@@ -28,5 +28,7 @@ namespace Figma_Clients.Views
             TextBox textBox = sender as TextBox;
             textBox!.Text = "";
         }
+
+        
     }
 }
