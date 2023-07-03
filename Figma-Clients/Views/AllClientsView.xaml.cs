@@ -28,6 +28,15 @@ namespace Figma_Clients.Views
 
         }
 
-
+        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            HomeView homeView = new HomeView();
+            homeView.ShowDialog();
+            App.Current.MainWindow.Close();
+            var a = Application.Current.Windows[0];
+            var b = Application.Current.Windows[1];
+            a.Close();
+            b.Close();
+        }
     }
 }
