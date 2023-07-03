@@ -5,8 +5,7 @@
     "Company": "Indigo",
     "Phone": "\u002B994 555 55 55",
     "Information": "A4,A5 akril toplu sifaris",
-    "Id": "ef84c73e-ca03-45d6-a4f6-db49f764ff06",
-    "RegistrationDate": "16.09.2021",
+    "Id": "c499be41-a76e-40d4-9e66-6e013def335e",
     "orders": [
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -15,7 +14,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": false,
         "status": "#07DA42",
-        "Id": "d16e876c-b7f9-4398-b93e-a6b623ca82ac"
+        "Id": "26933c08-626e-4f39-88f0-3c7c78a5cd2a"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -24,7 +23,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": false,
         "status": "#07DA42",
-        "Id": "62c05072-0344-46b4-b0c8-915f30ee4e18"
+        "Id": "1a052e98-ce32-4a31-9eff-75bc36654402"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -33,7 +32,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": true,
         "status": "#EE0F0F",
-        "Id": "2b07c294-e361-40ae-a216-7f2d3dd41b61"
+        "Id": "b002e83c-50af-46ae-894a-bf31effe7fa6"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -42,10 +41,11 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": true,
         "status": "#EE0F0F",
-        "Id": "7c672f5e-bd94-4a1f-908a-f8bca312fccf"
+        "Id": "2df98216-c208-4000-97ea-19f74ff0ea6e"
       }
     ],
-    "Place": null
+    "Place": null,
+    "RegistrationDate": "16.09.2021"
   },
   {
     "Name": "Yunis",
@@ -53,8 +53,7 @@
     "Company": "Indigo",
     "Phone": "\u002B994 555 55 55",
     "Information": "A4,A5 akril toplu sifaris",
-    "Id": "bef118b5-faad-4096-9b5d-c0b1babf852f",
-    "RegistrationDate": "16.09.2021",
+    "Id": "3c6e2890-79c8-4ea3-a5d7-60e2388634ec",
     "orders": [
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -63,7 +62,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": false,
         "status": "#07DA42",
-        "Id": "d79348f6-a20d-45f7-bd54-845f423aaec5"
+        "Id": "8e649fdd-7e97-4747-bcde-8e329f0257f0"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -72,7 +71,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": false,
         "status": "#07DA42",
-        "Id": "ea45f2de-e17f-4566-8c9b-8455503d058d"
+        "Id": "692477d8-57aa-45b7-852d-f3f6d79b5130"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -81,7 +80,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": true,
         "status": "#EE0F0F",
-        "Id": "58c9cba7-4bd5-4c73-a3b1-f9a23aa77d0e"
+        "Id": "6ce75213-917f-44c0-8bc3-76fbc5426fb4"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -90,19 +89,11 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": true,
         "status": "#EE0F0F",
-        "Id": "f6e8a966-05b4-4719-a436-f1af453c356d"
-      },
-      {
-        "Name": "Ibrahim",
-        "Quantity": "12",
-        "OpeningDay": "02.02.2023",
-        "DeliveryDay": "02.02.2023",
-        "IsDelivered": false,
-        "status": "#07DA42",
-        "Id": "9e185463-f3d7-4510-b4d8-2cb5337a3f6c"
+        "Id": "c6a4b581-00f2-4838-999e-09cf538c7448"
       }
     ],
-    "Place": null
+    "Place": null,
+    "RegistrationDate": "16.09.2021"
   },
   {
     "Name": "Yunis",
@@ -110,8 +101,7 @@
     "Company": "Indigo",
     "Phone": "\u002B994 555 55 55",
     "Information": "A4,A5 akril toplu sifaris",
-    "Id": "d1f7e5e7-f6ef-4766-a534-66a5c35fc22e",
-    "RegistrationDate": "16.09.2021",
+    "Id": "c6d08756-2588-45b4-864a-5884ff351760",
     "orders": [
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -120,7 +110,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": false,
         "status": "#07DA42",
-        "Id": "43ac07fc-6340-4594-80ed-5c843ee483fc"
+        "Id": "eaa6c8b7-1aed-4f65-9373-78040f93cae0"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -129,7 +119,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": false,
         "status": "#07DA42",
-        "Id": "cae23bbe-ca27-4603-b809-6f041e9cb357"
+        "Id": "6672f52a-659d-4924-94c0-a49f017a538f"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -138,7 +128,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": true,
         "status": "#EE0F0F",
-        "Id": "c5fd6711-d246-4d14-acc6-cfd067aa99d9"
+        "Id": "24910cdc-f055-492f-bb32-dddfbd83736a"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -147,10 +137,11 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": true,
         "status": "#EE0F0F",
-        "Id": "a4a11ddb-d9d7-4804-841c-a4407b3532f7"
+        "Id": "baa7653f-4bcb-40a4-bee2-bb70b8ffd7ee"
       }
     ],
-    "Place": null
+    "Place": null,
+    "RegistrationDate": "16.09.2021"
   },
   {
     "Name": "Yunis",
@@ -158,8 +149,7 @@
     "Company": "Indigo",
     "Phone": "\u002B994 555 55 55",
     "Information": "A4,A5 akril toplu sifaris",
-    "Id": "14ff1bf2-820e-43a9-9113-74f9c7bf5ec4",
-    "RegistrationDate": "16.09.2021",
+    "Id": "0d8601bb-9a19-47b3-a90a-8e64e0d37332",
     "orders": [
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -168,7 +158,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": false,
         "status": "#07DA42",
-        "Id": "e2309504-0c88-4224-8566-163ccf354931"
+        "Id": "4fbb50ae-fb19-48ab-9453-f5fd2cdf0ab8"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -177,7 +167,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": false,
         "status": "#07DA42",
-        "Id": "9b31601d-e493-44fd-972f-044ac66472cc"
+        "Id": "b2e52698-730c-4dfe-a64e-c93f9c21d008"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -186,7 +176,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": true,
         "status": "#EE0F0F",
-        "Id": "8e173975-ada3-4505-b680-978c3c1466a6"
+        "Id": "41d85aae-4800-4563-abb4-ba20db91bff9"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -195,9 +185,10 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": true,
         "status": "#EE0F0F",
-        "Id": "0c108318-e320-42f0-8208-5f91735f8856"
+        "Id": "b489da0d-9e7a-4ca2-942b-e6eefb299527"
       }
     ],
-    "Place": null
+    "Place": null,
+    "RegistrationDate": "16.09.2021"
   }
 ]
