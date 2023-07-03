@@ -8,7 +8,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": false,
         "status": "#07DA42",
-        "Id": "047a1707-985e-4db7-8e67-7e1dc544a8ab"
+        "Id": "b273a238-81d4-4dce-bfce-edb7963e3f3e"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -17,7 +17,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": false,
         "status": "#07DA42",
-        "Id": "4e4e2005-0feb-4be9-a797-c1f1b7817abb"
+        "Id": "3738cb61-d993-4bf2-8266-2dbf06f4b6ac"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -26,7 +26,7 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": true,
         "status": "#EE0F0F",
-        "Id": "5f8ddf84-7a12-4eab-a8d5-eb437262dcf1"
+        "Id": "752702cb-0ce7-4b2a-bcc7-bbc4682ecd83"
       },
       {
         "Name": "Display Akril |2.5mm| A5",
@@ -35,16 +35,16 @@
         "DeliveryDay": "03.07.2023",
         "IsDelivered": true,
         "status": "#EE0F0F",
-        "Id": "c3ec43c8-e76e-4c62-ac00-74a81e36505b"
+        "Id": "45599785-c3a9-4ea7-bdde-887ee6dd3b38"
       }
     ],
     "Name": "Ibrahim",
     "Surname": "Asadov",
     "Phone": "070-404-03-00",
-    "Company": "Microsoft",
-    "Place": "Sabah",
+    "Company": "Sabah",
+    "Place": "Instagran",
     "RegistrationDate": "02.02.2023",
-    "Information": "oiewh3",
-    "Id": "d8bbdba6-b1e5-49c9-b2b1-87212ef8938c"
+    "Information": "wlhv3rh",
+    "Id": "7ea86ae4-e1f9-46ad-a587-e9a6d53ad2ff"
   }
 ]
