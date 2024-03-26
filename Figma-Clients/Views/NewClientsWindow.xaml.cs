@@ -13,7 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using static Figma_Clients.ViewModels.NewClientViewModel;
 namespace Figma_Clients.Views
 {
    
@@ -22,7 +22,7 @@ namespace Figma_Clients.Views
         public NewClientsWindow()
         {
             InitializeComponent();
-            DataContext = new NewClientViewModel();
+            DataContext = new NewClientViewModel(ref usernameTxtBox,ref passwordTxtBox);
         }
 
 

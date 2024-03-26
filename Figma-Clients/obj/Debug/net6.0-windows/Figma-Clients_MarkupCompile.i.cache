@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Asus\source\repos\Figma-Clients\Figma-Clients\obj\Debug\net6.0-windows\
+C:\Users\ASUS\Desktop\Clients\Figma-Clients\obj\Debug\net6.0-windows\
 Figma_Clients
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Asus\source\repos\Figma-Clients\Figma-Clients\App.xaml
+C:\Users\ASUS\Desktop\Clients\Figma-Clients\App.xaml
 7888638175
 
-20833883640
-195-1325234621
+211502152920
+1951866783210
 ResourceDictionaries\Dictionary1.xaml;Views\AllClientsView.xaml;Views\ClientProfileView.xaml;Views\HomeView.xaml;Views\NewClientRegister.xaml;Views\NewClientsWindow.xaml;Views\NewOrderView.xaml;
 
 False

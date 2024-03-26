@@ -100,7 +100,7 @@ namespace Figma_Clients.Models
 
         public Clients(){ }
 
-        public Clients(string name, string surname, string company, string phone, string information, string registrationDate) : this()
+        public Clients(string name, string surname, string company, string phone, string information, string registrationDate):this()
         {
             Name = name;
             Surname = surname;

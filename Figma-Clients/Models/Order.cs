@@ -55,10 +55,6 @@ namespace Figma_Clients.Models
             IsDelivered = isDelivered;
         }
 
-
-
-
-
         public event PropertyChangedEventHandler? PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)
         {

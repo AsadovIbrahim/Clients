@@ -21,7 +21,7 @@ namespace Figma_Clients.ViewModels
         public string? MonthDelivery { get; set; } = "Month";
         public string? YearDelivery { get; set; } = "Year";
 
-        public Clients? Client { get; set; } = new();
+        public Clients  ? Client { get; set; } = new();
         public Order? Order { get; set; } = new();
         public void Register(object? param)
         {

@@ -22,11 +22,11 @@
             <StackPanel Orientation="Vertical" Margin="0,60,0,0">
                 <TextBlock Style="{StaticResource TextBlock}" Text="username"/>
                 <Border Style="{StaticResource borderTextBox}">
-                    <TextBox Text="enter your username" Foreground="gray" TextAlignment="Center" Style="{StaticResource TextBox}" GotFocus="TextBox_GotFocus"/>
+                    <TextBox x:Name="usernameTxtBox" Text="enter your username" Foreground="gray" TextAlignment="Center" Style="{StaticResource TextBox}" GotFocus="TextBox_GotFocus"/>
                 </Border>
                 <TextBlock Style="{StaticResource TextBlock}" Text="password"/>
                 <Border Style="{StaticResource borderTextBox}">
-                    <TextBox Text="enter your password" Foreground="gray" TextAlignment="Center" Style="{StaticResource TextBox}" GotFocus="TextBox_GotFocus" />
+                    <TextBox x:Name="passwordTxtBox" Text="enter your password" Foreground="gray" TextAlignment="Center" Style="{StaticResource TextBox}" GotFocus="TextBox_GotFocus" />
                 </Border>
             </StackPanel>
         </Grid>
